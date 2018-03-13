@@ -1,0 +1,21 @@
+{
+  "name": "actividad_2",
+  "authors": [
+    "Javier Pérez <jpv881@gmail.com>"
+  ],
+  "description": "simple spa",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap": "^4.0.0"
+  }
+}

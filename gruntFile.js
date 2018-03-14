@@ -15,11 +15,12 @@ module.exports = function(grunt){
       },
       watch: {
           scripts: {
-              files: ['js/*.js', "index.html"],
-              tasks: ['connect'],
+              files: ['assets/js/*.js', "index.html", "css/estilos.css"],
+              //tasks: [''],
               options: {
                   spawn: false,
                   interrupt: true,
+                  livereload: 1338,
               },
           },
       },

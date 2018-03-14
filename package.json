@@ -21,6 +21,7 @@
     "grunt-contrib-watch": "^1.0.0"
   },
   "dependencies": {
+    "fullpage.js": "^2.9.6",
     "grunt": "^1.0.2"
   }
 }

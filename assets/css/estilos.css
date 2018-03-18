@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
+
+#idInicio {
+    background-color: black;
+}
+
+#idInicio img {
+    max-height: 100vh;
+}
+
+#idInicio .fp-slidesNav {
+    text-align: center;
+}
+
+header {
+    z-index: 10;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+}
+
+header li.nav-item {
+    align-self: flex-end;
+}
+
+header .navbar {
+    justify-content: flex-end;
+    background-color: transparent !important;
+}
+
+.fp-next {
+    border-left-color: white !important;
+    //right: 15% !important;
+}
+
+.fp-prev {
+    border-right-color: white !important;
+    //left: 15% !important;
+}
+
+.fp-slidesNav{
+    visibility: hidden;
+}
+
+@media (max-width: 768px) {
+    .fp-next,
+    .fp-prev{
+        visibility: hidden;
+    }
+
+    .fp-slidesNav{
+        visibility: visible;
+    }
+}
+
+#idInicio .fp-tableCell img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header ul.navbar-nav a {
+    letter-spacing: 0.2em;
+    font-size: 1.4em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: black !important;
+    //text-shadow: 1px 1px white;
+    font-weight: bold;
+    color: white !important;
+}
+
+#logo{
+    position: relative;
+    padding-top: 1vh;
+}
+
+#logo img {
+    height: 10vh;
+    width: 10vh;
+    //position: absolute;
+}
+
+#idInicio video {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.fp-slidesNav span{
+    background: white !important;
+}
+
+#logo > span {
+    color: white;
+    position: absolute;
+}
+
+#logo span span {
+    font-size: 1.4em;
+}
+
+#viajar div {
+    color: white;
+    position: absolute;
+    top: 75vh;
+    left: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 5px;
+    border: solid 1.5px;
+    border-radius: 5px;
+    font-size: 1.4em;
+}
+
+#viajar {
+    text-align: center;
+    position: relative;
+}
+
+#viajar div:hover {
+    cursor: pointer;
+}

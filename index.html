@@ -7,33 +7,91 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/fullpage.js/dist/jquery.fullpage.min.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
     <title>Travels</title>
 </head>
 <body>
 <div id="fullpage">
-    <section id="inicio">
+    <section>
         <div class="wrapper">
-            Test
+            <div class="container-fluid">
+                <header id="header">
+                    <div id="logo">
+                        <span>
+                            <img src="assets/img/compass2.png" alt="">
+                            <span>Geeks Travels</span>
+                        </span>
+                    </div>
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active" data-menuanchor="inicio">
+                                    <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item" data-menuanchor="destinos">
+                                    <a class="nav-link" href="#destinos">Destinos</a>
+                                </li>
+                                <li class="nav-item" data-menuanchor="nosotros">
+                                    <a class="nav-link" href="#nosotros">Nosotros</a>
+                                </li>
+                                <li class="nav-item" data-menuanchor="mapa">
+                                    <a class="nav-link disabled" href="#mapa">Mapa</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </header>
+            </div>
         </div>
     </section>
-    <section id="destinos">
+    <section id="idInicio" class="section">
         <div class="wrapper">
-
+            <div class="container">
+                <div id="viajar">
+                    <div>¡Quiero Viajar!</div>
+                </div>
+                <div class="slide">
+                    <video autoplay loop id="video0">
+                        <source src="assets/video/parte1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="slide">
+                    <video autoplay loop id="video1">
+                        <source src="assets/video/parte2.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="slide">
+                    <video autoplay loop id="video2">
+                        <source src="assets/video/parte3.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
         </div>
     </section>
-    <section id="nosotros">
+    <section id="idDestinos" class="section">
         <div class="wrapper">
-
+            destinos
         </div>
     </section>
-    <section id="mapa">
+    <section id="idNosotros" class="section">
         <div class="wrapper">
-
+            nosotros
+        </div>
+    </section>
+    <section id="idMapa" class="section">
+        <div class="wrapper">
+            mapa
         </div>
     </section>
 </div>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="bower_components/fullpage.js/dist/jquery.fullpage.min.js"></script>
+<script src="bower_components/fullpage.js/dist/jquery.fullpage.extensions.min.js"></script>
+<script src="assets/js/fPage.js"></script>
+<script src="assets/js/app.js"></script>
 </body>
 </html>
